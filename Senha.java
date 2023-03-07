@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Senha {
     Scanner s = new Scanner(System.in);
 
-    public String senha() {
+    public String csenha() {
         System.out.print("SENHA: ");
         String senhaa = s.nextLine();
         return senhaa;

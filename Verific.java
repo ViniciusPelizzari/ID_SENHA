@@ -1,11 +1,11 @@
-public class Verfic {
+public class Verific {
 
     public static void main(String[] args) {
         IdUser id = new IdUser();
         Senha se = new Senha();
 
         String use = id.use();
-        String senha = se.senha();
+        String senha = se.csenha();
         String user = id.user();
 
         if (use.equals(user)) {
